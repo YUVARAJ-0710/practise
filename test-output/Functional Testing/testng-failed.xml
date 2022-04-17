@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Testing]">
+  <parameter name="browser" value="ie"/>
+  <test name="category-chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestScenarios.php">
+        <methods>
+          <include name="testwrite"/>
+          <include name="driverexit"/>
+          <include name="driverexit"/>
+          <include name="to"/>
+          <include name="from"/>
+          <include name="readlistofProds"/>
+          <include name="driverop"/>
+          <include name="driverop"/>
+        </methods>
+      </class> <!-- TestScenarios.php -->
+    </classes>
+  </test> <!-- category-chromeTest(failed) -->
+  <test name="category-IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="TestScenarios.php">
+        <methods>
+          <include name="testwrite"/>
+          <include name="driverexit"/>
+          <include name="driverexit"/>
+          <include name="to"/>
+          <include name="from"/>
+          <include name="readlistofProds"/>
+          <include name="driverop"/>
+          <include name="driverop"/>
+        </methods>
+      </class> <!-- TestScenarios.php -->
+    </classes>
+  </test> <!-- category-IETest(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->
